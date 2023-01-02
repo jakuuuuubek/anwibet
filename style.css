@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.main-part {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    height: 150px;
+    width: 55%;
+    background-color: #e6d5bc;
+}
+
+a,p {
+    font-size: clamp(0.6em, 1.4vw, 1em);
+}
+
+p {
+    font-weight: 600;
+}
+
+a {
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 8em;
+    height: auto;
+    margin-left: 12%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 6%;
+    list-style: none;
+}
+
+li img {
+    width: 20%;
+    height: auto;
+}
+
+.video-bg,.video {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.video-bg {
+    height: calc(150px + 62%);
+    border-bottom-left-radius: 30%;
+    width: 45%;
+    background: radial-gradient(#F4DF81,#C09758);
+}
+
+.video {
+    width: 44%;
+    height: calc(150px + 60%);
+    border-bottom-left-radius: 28%;
+}
+
+.koparka-bg {
+    position: absolute;
+    width: 100vw;
+    height: 88vh;
+    max-width: 100%;
+    z-index: -1;
+}
+
+.anwibet{
+    height: 50vh;
+    width: 55vw;
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.line {
+    display: inline-block;
+    width: 35%;
+    height: 5px;
+    background-color: #B28D49;
+    border: none;
+    margin-left: 2%;
+}
+
+.anwibet p, .anwibet span {
+    font-size: clamp(1em, 4vw, 6em);
+}
+
+.anwibet p {
+    font-weight: 600;
+    margin: 0;
+    margin-left: -0.5%;
+}
+
+.anwibet .z-nami {
+    font-weight: 600;
+    color: white;
+    background-color: #B28D49;
+    padding: 0 1%;
+}
+
+.anwibet span {
+    font-weight: 200;
+    opacity: 75%;
+}
